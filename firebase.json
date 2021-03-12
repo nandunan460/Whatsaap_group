@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "whatsapp-6e414",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
